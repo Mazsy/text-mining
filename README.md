@@ -21,7 +21,6 @@ La red recurrente discriminativa consiste en una capa de memoria a largo plazo (
 ![Texto alternativo](/imagen/4.png)
 
 
-
 ## Introduccion a la herramienta usada:
 
 Pressagio es una libreria de python desarrollada por Peter Bouda (https://github.com/Poio-NLP/pressagio).
@@ -41,6 +40,13 @@ El objetivo está orientado al desarrollo de una aplicación pesonal. Para la mi
 Una posible solución futura será tratar el texto acumulado por el autor pasandolo por un script donde te matchee correcciones, obteniendo de esa forma un corpus más elegante semánticamente. 
 
 ![Texto alternativo](/imagen/1.png)
+
+
+Siguiendo a un etorno más amigable, se trabajo con widgets para mayor comodidad del usuario.
+
+![Texto alternativo](/imagen/5.png)
+
+
 
 ### Implementacion:
 -Otro solución ya hecha en el desarrollo de la aplicación, es obtener el corpus el corpus de la wikipedia, y a partir de ella predecir. 
