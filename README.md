@@ -70,12 +70,14 @@ Teniendo los textos en formato utf8. Lo próximo a realizar fue: guardar en una 
 
 Finalmente se uso un scrip, propuesto en cada notebook de cada directorio propiamente llamados.
 
-![Texto alternativo](/imagen/1.png)
+En la siguiente imagen se obtiene una captura de la potente herramienta. Para este ejemplo, se uso los textos planos desarrollados y no de la wiki. El cual toma entrada con el comando input.
+Cabe aclarar que el programa te toma espacios para diferenciar entre palabra completa y palabra a predecir. En el caso que no haya un espacio entonces se autocompleta palabra.
 
+![Texto alternativo](/imagen/7.png)
 
 Siguiendo a un etorno más amigable, se trabajo con widgets para mayor comodidad del usuario.
 
-![Texto alternativo](/imagen/5.png)
+![Texto alternativo](/imagen/8.png)
 
 
 ## Problematicas:
