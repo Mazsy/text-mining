@@ -1,6 +1,23 @@
 # Prediciendo-ME
-Al empezar el proyecto me costó encontrar modelos que respalden tareas tales como: clasificar las acciones observadas de acuerdo con sus tipos, predecir hacia adelante y completar las acciones (predecir).
-Un enfoque particular radica en comprender cómo aprender gradualmente las acciones de manipulación de solo unos pocos ejemplos y cómo permitir que los modelos clasifiquen las acciones que aún están en progreso. Comparamos dos amplias clases de modelos: modelos de secuencia generativa (HMM en particular) y redes neuronales recurrentes de entrenadas de forma discriminatoria (redes recurrentes LSTM).
+
+## Objetivo: 	
+El proyecta está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir.
+Para ello, se debe ingresar en una base de datos un "corpus" propio del usuario. En dicha bd se tendrá guardadas en 3 n-gramas las frases u oraciones descriptos por el mismo. Más adelante se explica cómo.
+El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-ngramas.
+
+# requerimientos:
+- pressagio
+- jupyter notebook
+- python 3.7
+- sqlite3
+
+El objetivo descrito anteriormente es hacer un sistema de texto predictivo que sea personalizable.
+Al empezar el proyecto tardé modelos que respalden tareas tales como: clasificar las acciones observadas de acuerdo con sus tipos, predecir hacia adelante y completar las acciones (predecir y autocompletar).
+
+Un enfoque particular radica en comprender cómo aprender gradualmente las acciones de manipulación de solo unos pocos ejemplos y cómo permitir que los modelos clasifiquen las acciones que aún están en progreso. 
+Comparamos dos amplias clases de modelos, lo cual son tecnologias bases para predecir:
+- modelos de secuencia generativa (HMM en particular) 
+- y redes neuronales recurrentes de entrenadas de forma discriminatoria (redes recurrentes LSTM):
 
 ## HMM 
 
@@ -14,7 +31,7 @@ La siguiente figura muestra una secuencia de modelos obtenidos mediante mergings
 (ab)+ y posteriormente mergings los estados resaltados.
 ![Texto alternativo](/imagen/3.png)
 
-# LSTM
+## LSTM
 
 La red recurrente discriminativa consiste en una capa de memoria a largo plazo (LSTM) con 128 bloques de memoria seguida de una capa lineal completamente conectada con normalización softmax y una unidad de salida por clase objetivo. La normalización softmax permite que la salida de la red se interprete como probabilidades de clase. A diferencia del enfoque de HMM donde entrenamos un HMM separado para cada clase, esta red aprende una representación conjunta entre las secuencias de las 4 clases.
 
@@ -24,20 +41,34 @@ La red recurrente discriminativa consiste en una capa de memoria a largo plazo (
 ## Introduccion a la herramienta usada:
 
 Pressagio es una libreria de python desarrollada por Peter Bouda (https://github.com/Poio-NLP/pressagio).
-Pressagio te predice la siguiente palabra,  como asi la palabra a autocompletar, siguiendo un modelo de n-gram. 
+Pressagio te predice la siguiente palabra,  como asi la palabra a autocompletar, siguiendo un modelo de n-gram. Y siendo de la familia HMM, pressagio es fácil de usar.
 Esta libreria trabaja con presage, es decir, presage es el motor de pressagio. Además de estar en continuo desarrollo. 
 
 
 Unos de los proyectos que está involucrado pressagio, es en el proyecto POIO. (https://www.poio.eu)  
 El proyecto Poio desarrolla tecnologías lingüísticas para apoyar la comunicación en idiomas menos utilizados y con pocos recursos y con dispositivos electrónicos. Dentro del proyecto Poio, desarrollan servicios de entrada de texto con predicción de texto (acá entra pressagio). Además desarrollan transliteración para dispositivos móviles y usuarios de escritorio para permitir la conversación en cientos de idiomas entre individuos y comunidades en línea.
 
-##Objetivo del proyecto:
-El objetivo está orientado al desarrollo de una aplicación pesonal. Para la misma se guardo una recompilación de 9 archivos de texto plano, realizadas por la comunicacion debida a ciertos días. Llevando a dichos textos a un solo archivo. 
+# Desarrollo:
 
-## Problematicas:
+El objetivo, dicho anteriormente está orientado al desarrollo de una aplicación pesonal. Para la misma se guardo una recompilación de 9 archivos de texto plano, realizadas para la comunicacion debida de ciertos días. Llevando a dichos textos a un solo archivo. 
 
--Una de las problematicas está en que el texto predictivo se basa en un archivo con errores de tipeo, y/o acentos. 
-Una posible solución futura será tratar el texto acumulado por el autor pasandolo por un script donde te matchee correcciones, obteniendo de esa forma un corpus más elegante semánticamente. 
+![Texto alternativo](/imagen/5.png)
+
+### Implementacion:
+Se separó en dos partes el programa:
+- en uno obtener la base de datos con un corpus desarrollado por el usuario.
+- En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd , y a partir de ella predecir. (dicha bd, por ser grande no se ha podido subir).
+
+Los textos planos, tenían caracteres iso-8859-1. Lo cual a pasar n-gramas tuvo grandes consecuencias. 
+Para ello se suavizo a utf8 con el siguiente comando:
+
+```sh iconv -f ISO-8859-1 -t UTF-8//TRANSLIT raw.es/spanishText_10000_15000.txt -o file-utf8.txt```
+
+Teniendo los textos en formato utf8. Lo próximo a realizar fue: guardar en una base de datos los n-gramas. (se trabajo con n=3, osea con una ventana igual a 3). El siguiente comando, usando el archivo : "text2ngram.py",  generó una base de datos con 3 tablas, una para 1-gramas, otra para 2-gramas, y finalmente la de 3-gramas.
+
+```sh python text2ngram.py -n 1 -o db.sqlite wiki.txt```
+
+Finalmente se uso un scrip, propuesto en cada notebook de cada directorio propiamente llamados.
 
 ![Texto alternativo](/imagen/1.png)
 
@@ -47,21 +78,11 @@ Siguiendo a un etorno más amigable, se trabajo con widgets para mayor comodidad
 ![Texto alternativo](/imagen/5.png)
 
 
+## Problematicas:
 
-### Implementacion:
--Otro solución ya hecha en el desarrollo de la aplicación, es obtener el corpus el corpus de la wikipedia, y a partir de ella predecir. 
+-Una de las problematicas está en que el texto predictivo se basa en un archivo con errores de tipeo, y/o acentos. 
+Una posible solución futura será tratar el texto acumulado por el autor pasandolo por un script que haga correcciones en base a un diccionario de la Real Academia Española (RAE), obteniendo de esa forma un corpus más elegante semánticamente. 
 
-El mismo texto plano, tenía caracteres iso-8859-1. Lo cual a pasar n-gramas tuvo grandes consecuencias. 
-Para ello se suavizo a utf8 con el siguiente comando:
-
-```sh iconv -f ISO-8859-1 -t UTF-8//TRANSLIT raw.es/spanishText_10000_15000.txt -o file-utf8.txt```
-
-Teniendo el utf8. Lo proximo a realizar fue: guardar en una base de datos los n-gramas. (se trabajo con n=3, osea con una ventana igual a 3). El siguiente comando, usando el archivo : "text2ngram.py", se genero una base de datos con 3 tablas, una para 1-gramas, otra para 2-gramas, y finalmente la de 3-gramas.
-
-```sh python text2ngram.py -n 1 -o db.sqlite wiki.txt```
-
-Finalmente se uso un scrip, propueto en cada notebook de cada directorio propiamente llamados.
- 
 
 # Bibliografia
 https://pub.uni-bielefeld.de/download/2903474/2907910/MOD2016.pdf

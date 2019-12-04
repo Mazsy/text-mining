@@ -1,0 +1,1058 @@
+
+
+escribile
+
+venis?
+
+
+
+
+
+
+
+
+
+
+
+
+
+si, fui a chubut
+no tierra de fuego, y si mucho vientio
+
+
+
+verano
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+habia momentos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+puedo haceeer sandwich con esa chuletas
+
+
+
+
+
+
+
+
+
+con cafe 
+
+
+
+
+pure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+qeresswervir , voy al baño 
+
+
+
+
+
+
+
+
+
+
+
+estamos esperando al de materiales 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+decle a luuuciano, yo vvoy a comprar cemento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eli vende avon , si qress tte muestrro revista
+
+
+
+
+
+
+
+
+
+
+
+
+
+bueno, no,   
+
+mejor 
+
+
+
+
+
+
+
+
+
+
+
+
+cuidado que pican
+
+
+
+
+ya te veo asi 
+
+
+
+
+
+
+
+por mes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100, pero hace mucho
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anotame ese 
+
+
+
+
+
+
+
+
+
+
+
+mi hermno luis vende, esta carito
+
+
+
+
+
+
+
+
+los cosos esos de anab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+milagros repitio la tesis, q  desepcion, qeria oytr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yo segui tu ejemplo de la otra vez,  por titulo y body,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y la otra vez, cuando hiciste title y body  , sirvio?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yo agarre la biblia, extrajje un libro, y le puse guion en cada capitulo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+esa libreria, me dice que puedo sacar mas de una palabra, verdad?  y  no pude, puse re.split(a| b , text) eso me sacaria las  a y b
+
+
+
+
+
+
+
+
+
+
+
+
+
+y si uso yield, y quiero el ssegundo hago next?
+
+
+
+
+
+
+
+
+
+
+
+
+
+pero y si quiero clustering de stoword? guardo esta lista  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+q hacia con key(), es funcion de spacy?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y puedo usar el buuild_concurrense_matrix() q hiciste vos??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pero key te saca la palabra clsave, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+una matriz de unacolumna,, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+la columna quué serian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no veo dondee consruye la columnna
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+te enseño  prograar, decime una funcion 
+
+
+
+eso es una constante
+
+
+
+hay hay
+
+
+
+
+
+
+
+lo q e te ocurra hay
+es marabiloso la progr
+mira te voy a  hacer una  funcion cuadratica
+
+
+
+
+
+si x vale 1, cuanto va a dar?
+
+is vale 2
+
+
+que es una funcion
+
+es un par x,y
+
+punto
+
+dado un x , le corrresponfde un y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no, no, es aprobar o des
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ y como te sentis bb, 
+
+un poquitin mal, furiosa, 
+
+es bueno sentirlo, para s
+
+
+bien, esees el
+lo hermosa q sos...
+
+vamos  a co
+
+vale la pena inten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+este sabado q hacemos?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+te cuetoo algo feo
+
+cuando te menti a vos, que tenia 28
+
+mi flia tmb se lo creyo
+
+y aun cree
+
+asique ppa ellos 
+
+
+
+por eso, pa ellos cumplo 29
+
+
+dejalo asi, 
+´para vos tengo 30 , 
+
+
+q hacemos el dia ese , ed mi cumple
+
+
+
+
+
+
+
+
+
+
+festejamos los dos el sabado,  o el dia edl feriado, 
+porq colon descubre america
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vmos a comer empannadas, festejemos los doscumple
+
+y amigos de la igle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+el fue min profe de numerico y modelo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+como hacemos bb, pago yo?
+
+
+algo hacemos
+
+siempre en mi casa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ehncima tu pa esta sin trabjo
+ah y si havcemos una torta pa la igle
+
+
+
+
+
+
+
+
+
+eklla cursa con vos
+
+
+
+
+
+y la chica esa , q tiene iun esposo  25 años mas
+
+
+
+quien es? 
+
+
+
+
+
+
+
+
+
+
+
+
+cuando se agacho
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+si bebe, si 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hieerroos
+
+
+
+
+te haggo acordar a rut
+
+
+
+media camionada 
+s
+
+ay 	q tonta sos
+obvio q lo trae de la playa
+
+vbuno, arena y piedra falta
+cemento no pedi, 
+porq se me pone duro el cemento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+en serio, le entra aire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+es q es buen tipo, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yo lo manejo a eso,
+quiero termina de cavar
+
+si no , no se
+
+
+
+
+
+voy a pagar a julio, m
+la que?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bb, entonces,  pagare, tengo pensado en hablar a un vecino q vendi ropa
+y me debe mil
+
+en una de esas me caava cimienots por  mil
+
+el me termino la piza
+de mi exx
+sabias q  mario no me ayudo a terminar mi pieza xq no qeria q me fuera de su casa.
+
+
+porq la idea  de el , es qu constryuyera al fondo
+
+pobre  tito o luis, le costo una fortuna construir al fondo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y  a mi, vivir con mis hermnos fue lo peorr
+
+ponian la mona, tomabaan
+
+y tenian sexo
+
+
+
+
+
+
+
+
+
+
+una vez vi a mi hermnoo elia
+s
+
+fu efeo
+
+me asombre
+
+y me enojeconmigo,, xq  vi  q ellos duisfrutaban de sexo, y yo era virgen 
+
+
+
+
+
+24
+
+virgne pa vos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+che bebe, entonces compre eso, el hierro del 10 fue lo mascaro
+
+
+
+
+falta  12  ierros mas
+en el patio de  gaby, ahh 
+poneme algo
+
+
+
+
+
+otra cosa
+
+
+
+
+
+
+
+
+
+
+
+
+
+mi viida
+
+
+
+
+
+
+m dijiste chamuyero<'??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7y bueno, bbb, a ver hagamos  un calculo
+lacaasacostara 150 mil, 
+gastamos 22  mil, 
+
+
+CERAMICA DECIS
+y ladrilllllllos
+
+una vz revocada
+
+
+
+
+
+ah si, papel pa pared
+
+AH SI, PERO PARA DIVIDIR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bueno, grafiquemos
+
+
+
+
+estaba biennn
+
+
+
+
+
+
+
+
+
+
+
+
+wiiiiiiiii
