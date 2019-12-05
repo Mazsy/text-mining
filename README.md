@@ -1,7 +1,7 @@
 # Prediciendo-ME
 
 ## Objetivo: 	
-El proyecta está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir.
+El proyecto está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir.
 Para ello, se debe ingresar en una base de datos el "corpus" del usuario (es decir, una recompilacion de texto plano). En dicha bd se tendrá guardadas en 3-gramas las frases u oraciones descriptos por el mismo. Más adelante se explica cómo.
 
 El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-gramas.
@@ -12,7 +12,7 @@ El programa tiene como función dar en tiempo pequeño el tipeo requerido por el
 - python 3.7
 - sqlite3
 
-Cuyo onjetivo descrito anteriormente es hacer un sistema de texto predictivo que sea personalizable.
+Cuyo objetivo descrito anteriormente es hacer un sistema de texto predictivo que sea personalizable.
 
 Al empezar el proyecto tardé en hallar modelos que respalden tareas tales como: clasificar las acciones observadas de acuerdo con sus tipos, predecir hacia adelante y completar las acciones (predecir y autocompletar).
 
