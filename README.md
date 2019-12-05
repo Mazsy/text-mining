@@ -57,7 +57,7 @@ El objetivo, dicho anteriormente está orientado al desarrollo de una aplicació
 ### Implementacion:
 Se separó en dos partes el programa:
 - en uno obtener la base de datos con un corpus desarrollado por el usuario.
-- En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd , y a partir de ella predecir. (dicha bd, por ser grande no se ha podido subir).
+- En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd,  a partir de ella predecir. (dicha bd, por ser grande se omitio en el proyecto).
 
 Los textos planos, tenían caracteres iso-8859-1. Lo cual a pasar n-gramas tuvo grandes consecuencias. 
 Para ello se suavizo a utf8 con el siguiente comando:
