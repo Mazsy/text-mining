@@ -6,7 +6,7 @@ Para ello, se debe ingresar en una base de datos el "corpus" del usuario (es dec
 
 El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-gramas.
 
-# requerimientos:
+Requerimientos:
 - pressagio
 - jupyter notebook
 - python 3.7
@@ -57,7 +57,7 @@ El objetivo, dicho anteriormente está orientado al desarrollo de una aplicació
 ![Texto alternativo](/imagen/5.png)
 
 ### Implementacion:
-Se separó en dos ejecuciones, implementando dos programas con distintos corpus:
+Se separó en dos ejecuciones, implementando en un mismo programa con distintos corpus:
 - en uno obtener la base de datos con un corpus desarrollado por el usuario.
 - En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd,  a partir de ella predecir. (dicha bd, por ser grande se omitio subir en el proyecto).
 
