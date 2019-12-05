@@ -57,9 +57,9 @@ El objetivo, dicho anteriormente está orientado al desarrollo de una aplicació
 ![Texto alternativo](/imagen/5.png)
 
 ### Implementacion:
-Se separó en dos partes el programa:
+Se separó en dos ejecuciones, implementando dos programas con distintos corpus:
 - en uno obtener la base de datos con un corpus desarrollado por el usuario.
-- En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd,  a partir de ella predecir. (dicha bd, por ser grande se omitio en el proyecto).
+- En el otro se agarra el corpus de la wikipedia y se lo pasa a una bd,  a partir de ella predecir. (dicha bd, por ser grande se omitio subir en el proyecto).
 
 Los textos planos, tenían caracteres iso-8859-1. Lo cual a pasar n-gramas tuvo grandes consecuencias. 
 Para ello se suavizo a utf8 con el siguiente comando:
