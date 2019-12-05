@@ -67,6 +67,8 @@ Para ello se suavizo a utf8 con el siguiente comando:
 Teniendo los textos en formato utf8. Lo próximo a realizar fue: guardar en una base de datos los n-gramas. (se trabajo con n=3, osea con una ventana igual a 3). El siguiente comando, usando el archivo : "text2ngram.py",  generó una base de datos con 3 tablas, una para 1-gramas, otra para 2-gramas, y finalmente la de 3-gramas.
 
 ```sh python text2ngram.py -n 1 -o db.sqlite wiki.txt```
+```sh python text2ngram.py -n 2 -o db.sqlite wiki.txt```
+```sh python text2ngram.py -n 3 -o db.sqlite wiki.txt```
 
 Finalmente se uso un scrip, propuesto en cada notebook de cada directorio propiamente llamados.
 
