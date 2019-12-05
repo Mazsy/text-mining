@@ -2,8 +2,9 @@
 
 ## Objetivo: 	
 El proyecta está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir.
-Para ello, se debe ingresar en una base de datos el "corpus" del usuario (es decir, una recompilacion de texto plano). En dicha bd se tendrá guardadas en 3 n-gramas las frases u oraciones descriptos por el mismo. Más adelante se explica cómo.
-El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-ngramas.
+Para ello, se debe ingresar en una base de datos el "corpus" del usuario (es decir, una recompilacion de texto plano). En dicha bd se tendrá guardadas en 3-gramas las frases u oraciones descriptos por el mismo. Más adelante se explica cómo.
+
+El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-gramas.
 
 # requerimientos:
 - pressagio
@@ -12,6 +13,7 @@ El programa tiene como función dar en tiempo pequeño el tipeo requerido por el
 - sqlite3
 
 Cuyo onjetivo descrito anteriormente es hacer un sistema de texto predictivo que sea personalizable.
+
 Al empezar el proyecto tardé en hallar modelos que respalden tareas tales como: clasificar las acciones observadas de acuerdo con sus tipos, predecir hacia adelante y completar las acciones (predecir y autocompletar).
 
 Un enfoque particular radica en comprender cómo aprender gradualmente las acciones de manipulación de solo unos pocos ejemplos y cómo permitir que los modelos clasifiquen las acciones que aún están en progreso. 
