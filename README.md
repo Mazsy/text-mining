@@ -1,7 +1,7 @@
 # Prediciendo-ME
 
 ## Objetivo: 	
-El proyecto está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir.
+El proyecto está orientado en el tipeo veloz de un usuario, con su dialecto, su redacción e inclusive su propia forma de escribir. Osea predecir la próxima palabra. ¿Cómo lo hace?:
 Para ello, se debe ingresar en una base de datos el "corpus" del usuario (es decir, una recompilacion de texto plano). En dicha bd se tendrá guardadas en 3-gramas las frases u oraciones descriptos por el mismo. Más adelante se explica cómo.
 
 El programa tiene como función dar en tiempo pequeño el tipeo requerido por el usuario, a base de un corpus procesado en una base de datos de 3-gramas.
