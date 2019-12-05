@@ -90,7 +90,9 @@ Siguiendo a un etorno más amigable, se trabajo con widgets para mayor comodidad
 Una posible solución futura será tratar el texto acumulado por el autor pasandolo por un script que haga correcciones en base a un diccionario de la Real Academia Española (RAE), obteniendo de esa forma un corpus más elegante semánticamente. 
 
 # Tarea a futuro:
-En el desarrollo del trabajo se intentó hacer un editor de texto y correr pressagio en el mismo. Este poceso queda como meta futura.
+En el desarrollo del trabajo se intentó hacer un "procesador" de texto y correr pressagio en el mismo. En cuya interfaz grafica se obtendrá un listado de palabras a predecir. Este poceso queda como meta futura.
+
+![Texto alternativo](/imagen/9.png)
 
 # Bibliografia
 https://pub.uni-bielefeld.de/download/2903474/2907910/MOD2016.pdf
